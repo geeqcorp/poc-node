@@ -1,0 +1,28 @@
+{
+  "name": "geeq-poc-node",
+  "version": "0.1.0",
+  "description": "A Proof of Concept to demonstrate the GEEQ Proof of Honesty. This is the NODE/HUB.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geeqcorp/poc-node.git"
+  },
+  "author": "Darryl Patterson",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "async": "^2.6.0",
+    "compression": "^1.7.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "glob": "^7.1.2",
+    "helmet": "^3.9.0",
+    "lokijs": "^1.5.5",
+    "method-override": "^2.3.10",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {}
+}
